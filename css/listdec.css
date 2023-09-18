@@ -1,0 +1,36 @@
+ul{
+  background: darkblue;
+  padding: 10px 10px 10px 50px;
+}
+
+ul li{ /* ul의 자손 li*/
+    margin-bottom: 5px;
+}
+
+#menubar{
+  background: darkblue;
+}
+#menubar ul{
+  margin:0;
+  padding: 20;
+  width: 767px;
+}
+#menubar ul li{
+  display: inline-block;
+  list-style-type: none;
+  padding : 0px 15px;
+}
+#menubar ul li a{
+  color : white;
+  text-decoration: none;
+}
+#menubar ul li a:hover{
+  color:violet;
+}
+
+#menubar ul h1{
+  display: inline-block;
+  list-style-type: none;
+  padding : 0px 0px;
+  font-size: 40px;
+}
