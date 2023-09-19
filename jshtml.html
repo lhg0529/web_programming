@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jscode1.js">
+    // function over(obj){
+    //   obj.src='앞.jpg';
+    // }
+    // function out(obj){
+    //   obj.src='뒤.jpg';
+    // }
+  </script>
+</head>
+<body>
+  <!-- <img src="앞.jpg" alt="img"
+  onmouseover="this.src='뒤.jpg'"
+  onmouseout="this.src='앞.jpg'"> -->
+  <img src="뒤.jpg" alt="img"
+  onmouseover="over(this)"
+  onmouseout="out(this)">
+
+  <a href="javascript:alert('클릭했습니다.')">클릭하세요</a>
+</body>
+</html>
