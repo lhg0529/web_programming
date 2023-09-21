@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let students = [{
+      univ:"한국대학",
+      name: "홍길동",
+      score:100
+    },{
+      univ:"한국대학",
+      name:"김연아",
+      score:90
+    }]
+
+    for(const student of students){
+      console.log(`학생의 이름 : ${student.name}, 성적 : ${student.score}`);
+    }
+
+    [11,22,33].forEach((item,index) => {console.log(`index=${index}, item = ${item}`);
+    });
+  
+      
+
+  </script>
+  
+</body>
+</html>
